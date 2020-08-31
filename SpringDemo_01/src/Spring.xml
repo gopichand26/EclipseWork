@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.dxc.beans.Student" id="student">
+		<property name="id" value='101' />
+		<property name="name" value="gopi" />
+		<property name="email" value="gopi@gmail.com" />
+		<property name="mobile" value="93489358"></property>
+	</bean>
+
+	<bean class="com.dxc.beans.Address" id="address">
+		<property name="id" value='101' />
+		<property name="hno" value="er-43" />
+		<property name="street" value="2nd street" />
+		<property name="city" value="chennai"></property>
+	</bean>
+
+	<bean class="com.dxc.beans.Person" id="person" autowire ="constructor">
+		<property name="id" value='101' />
+		<property name="name" value="chandu" />
+		<property name="email" value="chandu@gmail.com" />
+		<property name="mobile" value="34489358" />
+	</bean>
+
+</beans>
