@@ -3,7 +3,9 @@ package com.dxc.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.text.ParseException;
 
+import javax.servlet.RequestDispatcher;
 //import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -65,7 +67,8 @@ public class UpdateServlet extends HttpServlet {
 				boolean o = std.edit(student);
 				
 				if(o) {
-					out.println("Student details edited successfully");
+					RequestDispatcher rd = request.getRequestDispatcher("DisplayStudents.jsp");
+					rd.forward(request, response);
 				}
 		
 				else {
@@ -75,7 +78,7 @@ public class UpdateServlet extends HttpServlet {
 		
 		//	RequestDispatcher rd = request.getRequestDispatcher("DisplayStudents.jsp");
 		//	rd.forward(request, response);
-			} catch (ClassNotFoundException | SQLException e) {
+			} catch (ClassNotFoundException | SQLException | ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

@@ -12,6 +12,8 @@ public class Student implements  Comparable<Student> {
 	String email;
 	String mobile;
 	
+
+	
 	SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 	public Student() {
 		super();
@@ -97,7 +99,6 @@ public class Student implements  Comparable<Student> {
 		
 		return student;
 	}
-
 	@Override
 	public int compareTo(Student o) {
 		// TODO Auto-generated method stub

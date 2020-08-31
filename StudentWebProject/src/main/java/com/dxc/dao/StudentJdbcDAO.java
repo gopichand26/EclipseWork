@@ -43,12 +43,12 @@ public class StudentJdbcDAO extends JdbcDAO implements DAO<Student> {
 	}
 
 	@Override
-	public boolean edit(Student e) throws SQLException {
+	public boolean edit(Student e) throws SQLException, FileNotFoundException, ParseException, IOException {
 		boolean res = false;
+		
 		try {
 			Connection con = ConnectionManager.getConnection();
-			con.commit();
-				
+			
 		PreparedStatement pstmt = con.prepareStatement("UPDATE student SET name=?, dob=?, email=?, mobile=? WHERE id = ?");
 		pstmt.setString(1, e.getName());
 		pstmt.setDate(2, new Date(e.getDob().getTime()));
@@ -58,6 +58,11 @@ public class StudentJdbcDAO extends JdbcDAO implements DAO<Student> {
 		
 		if(1 == pstmt.executeUpdate()) {
 			res = true;
+			con.commit();
+			con.setAutoCommit(true);
+			
+			Student stud = find(e.getId());
+			System.out.println(stud);
 		}
 		
 		} catch (ClassNotFoundException e1) {
@@ -68,19 +73,31 @@ public class StudentJdbcDAO extends JdbcDAO implements DAO<Student> {
 			con.close();
 		}
 		return res;
-		
 	}
 
 	@Override
-	public boolean delete(int id) throws SQLException {
+	public boolean delete(int id) throws SQLException, FileNotFoundException, ParseException, IOException {
 		boolean res = false;
+		try {
+			Connection con = ConnectionManager.getConnection();
 		
 		PreparedStatement pstmt = con.prepareStatement("DELETE FROM student WHERE id = ?");
 		pstmt.setInt(1, id);
 		if(1== pstmt.executeUpdate()) {
 			res = true;
+			con.commit();
+			con.setAutoCommit(true);
+			System.out.println(findAll());
+			
 		}
 		
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			con.close();
+		}
 		return res;
 	}
 

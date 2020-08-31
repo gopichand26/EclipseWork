@@ -1,8 +1,9 @@
 package com.dxc.servlet;
 
 import java.io.IOException;
-import java.sql.SQLException;
+import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -28,17 +29,26 @@ public class Delete extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		 String sid=request.getParameter("id");  
-	        int id=Integer.parseInt(sid);
-	        StudentJdbcDAO std;
-			try {
-				std = new StudentJdbcDAO();
-				std.delete(id);
-				  response.sendRedirect("DisplayStudents.jsp");
-			} catch (ClassNotFoundException | SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		int id=Integer.parseInt(request.getParameter("id"));
+		boolean bool = false;
+		try {
+			StudentJdbcDAO s = new StudentJdbcDAO();
+			bool=s.delete(id);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(bool) {
+			doPost(request, response);
+			PrintWriter out=response.getWriter();
+			out.println("Deleted successfully");
+			
+			
+		}
+
+		
+	
 	}
 
 	/**
@@ -46,6 +56,9 @@ public class Delete extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		RequestDispatcher rd = request.getRequestDispatcher("DisplayStudents.jsp");
+		rd.include(request, response);
+
 
 	}
 
