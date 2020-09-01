@@ -1,0 +1,80 @@
+2020-08-19 11:34:30,429 [main] DEBUG Demo_01 - Welcome to the logic 
+2020-08-19 11:34:35,061 [main] INFO  Demo_01 - user given value : 12 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - current c value : 0 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - logic complete with 0 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - current c value : 1 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - logic complete with 1 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - current c value : 2 
+2020-08-19 11:34:35,062 [main] INFO  Demo_01 - logic complete with 2 
+2020-08-19 11:34:35,063 [main] INFO  Demo_01 - current c value : 3 
+2020-08-19 11:34:35,063 [main] INFO  Demo_01 - logic complete with 3 
+2020-08-19 11:34:35,063 [main] INFO  Demo_01 - current c value : 4 
+2020-08-19 11:34:35,064 [main] INFO  Demo_01 - logic complete with 4 
+2020-08-19 11:34:35,064 [main] INFO  Demo_01 - current c value : 5 
+2020-08-19 11:34:35,064 [main] INFO  Demo_01 - logic complete with 5 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - current c value : 6 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - logic complete with 6 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - current c value : 7 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - logic complete with 7 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - current c value : 8 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - logic complete with 8 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - current c value : 9 
+2020-08-19 11:34:35,065 [main] INFO  Demo_01 - logic complete with 9 
+2020-08-19 11:34:35,066 [main] INFO  Demo_01 - current c value : 10 
+2020-08-19 11:34:35,066 [main] INFO  Demo_01 - logic complete with 10 
+2020-08-19 11:34:35,066 [main] INFO  Demo_01 - current c value : 11 
+2020-08-19 11:34:35,066 [main] INFO  Demo_01 - logic complete with 11 
+2020-08-19 11:34:35,066 [main] DEBUG Demo_01 - Program execution completed 
+2020-08-19 11:35:03,503 [main] DEBUG Demo_01 - Welcome to the logic 
+2020-08-19 11:35:12,249 [main] INFO  Demo_01 - user given value : 25 
+2020-08-19 11:35:12,250 [main] INFO  Demo_01 - current c value : 0 
+2020-08-19 11:35:12,250 [main] INFO  Demo_01 - logic complete with 0 
+2020-08-19 11:35:12,250 [main] INFO  Demo_01 - current c value : 1 
+2020-08-19 11:35:12,250 [main] INFO  Demo_01 - logic complete with 1 
+2020-08-19 11:35:12,250 [main] INFO  Demo_01 - current c value : 2 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - logic complete with 2 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - current c value : 3 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - logic complete with 3 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - current c value : 4 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - logic complete with 4 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - current c value : 5 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - logic complete with 5 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - current c value : 6 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - logic complete with 6 
+2020-08-19 11:35:12,251 [main] INFO  Demo_01 - current c value : 7 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - logic complete with 7 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - current c value : 8 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - logic complete with 8 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - current c value : 9 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - logic complete with 9 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - current c value : 10 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - logic complete with 10 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - current c value : 11 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - logic complete with 11 
+2020-08-19 11:35:12,252 [main] INFO  Demo_01 - current c value : 12 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - logic complete with 12 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - current c value : 13 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - logic complete with 13 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - current c value : 14 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - logic complete with 14 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - current c value : 15 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - logic complete with 15 
+2020-08-19 11:35:12,253 [main] INFO  Demo_01 - current c value : 16 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - logic complete with 16 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - current c value : 17 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - logic complete with 17 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - current c value : 18 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - logic complete with 18 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - current c value : 19 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - logic complete with 19 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - current c value : 20 
+2020-08-19 11:35:12,254 [main] INFO  Demo_01 - logic complete with 20 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - current c value : 21 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - logic complete with 21 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - current c value : 22 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - logic complete with 22 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - current c value : 23 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - logic complete with 23 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - current c value : 24 
+2020-08-19 11:35:12,255 [main] INFO  Demo_01 - logic complete with 24 
+2020-08-19 11:35:12,256 [main] DEBUG Demo_01 - Program execution completed 
