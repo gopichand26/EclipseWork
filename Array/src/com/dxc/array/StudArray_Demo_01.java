@@ -23,7 +23,7 @@ public class StudArray_Demo_01 {
 			students[c] = new Student(slno, name);
 		}
 		
-		System.out.println("\nInput Completed\n");
+		System.out.println("\n Input Completed \n");
 		
 		for(int c = 0 ; c < students.length ; c++) {
 			System.out.println("student at "+c+" index is "+students[c]);
